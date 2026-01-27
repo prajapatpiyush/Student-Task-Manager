@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body 
+{
+    background: linear-gradient(135deg, #f3f6fb, #e9eef5);
+    min-height: 100vh;
+    color: #1f2937;
+}
+
+header 
+{
+    text-align: center;
+    padding: 30px 15px 20px;
+}
+
+header h1 
+{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.subtitle
+{
+    font-size: 14px;
+    color: #4b5563;
+}
+
+.info 
+{
+    max-width: 640px;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #374151;
+    padding: 0 15px;
+}
+
+.container 
+{
+    max-width: 420px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.container input
+{
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+.container input:focus 
+{
+    border-color: #2563eb;
+}
+
+.container button
+{
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+.container button:hover 
+{
+    background: #1e40af;
+}
+
+ul 
+{
+    margin-top: 22px;
+}
+
+li
+{
+    display: grid;
+    grid-template-columns: 28px 1fr 40px;
+    align-items: center;
+    gap: 12px;
+
+    padding: 12px 14px;
+    margin-bottom: 12px;
+
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+li span 
+{
+    font-size: 14px;
+    line-height: 1.45;
+    word-break: break-word;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #9ca3af;
+}
+
+.delete-btn {
+    width: 36px;
+    height: 36px;
+
+    border-radius: 8px;
+    border: none;
+
+    background: #ef4444 !important;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.delete-btn:hover {
+    background: #dc2626 !important;
+    transform: scale(1.05);
+}
+
+.task-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.timestamp {
+    font-size: 11px;
+    color: #6b7280;
+}
+footer {
+    text-align: center;
+    margin: 30px 15px;
+    font-size: 13px;
+    color: #6b7280;
+}
