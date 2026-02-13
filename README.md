@@ -1,6 +1,6 @@
 # Student Task Manager
 
-## Assignment for Zimetrics Technologies – Assessment Round
+## A TODO APPLICATION
 
 The **Student Task Manager** is a simple Single Page Application (SPA) developed to help students manage and track their academic tasks efficiently.  
 This project demonstrates **full-stack web development using Java MVC architecture**, **MySQL database integration**, and **AJAX-based dynamic UI updates**, without using any external APIs or frameworks.
@@ -86,7 +86,8 @@ External libraries and APIs were intentionally avoided to strictly comply with t
 ---
 
 ##  Screenshot Proof
-<img width="1915" height="867" alt="Screenshot 2026-01-27 231030" src="https://github.com/user-attachments/assets/ff7e8308-6912-43b0-bc6f-04c2c141aac8" />
+
+<img width="778" height="796" alt="Screenshot 2026-02-13 175448" src="https://github.com/user-attachments/assets/4d4b7e43-8248-49dd-9c13-e0cc4ee04a3f" />
 
 
 The submission includes a screenshot showing:
@@ -129,7 +130,4 @@ Java MVC | MySQL | AJAX
 
 ---
 
-##  Conclusion
 
-This project fulfills all the requirements of the assessment while also showcasing additional features, clean architecture, and attention to detail.  
-It reflects my understanding of **Java MVC design**, **MySQL database integration**, **AJAX-based SPA development**, and real-world debugging practices.
